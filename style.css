@@ -1,8 +1,6 @@
-.d1{
-    position: fixed;
-    background: url(img/dance1.png);
-    background-repeat: no-repeat;
-    margin-left: 30%;
-    width: 500%;
-    height: 500%;
+#dd{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 600px;
+    height: 500px;
 }
