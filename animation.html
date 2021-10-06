@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animation</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button onclick="dance_img()">start/fast</button>
-    <button onclick="stop()" >stop</button>
-    <img src="img/black.jpg" id="dd" >
+    <button onclick="dance_img()" id="btn1">start/fast</button>
+    <button onclick="stop()" id="btn2" >stop</button>
+    <div class="fxn">
+        <img src="img/black.jpg" id="dd">
+    </div>
+    <audio id="ad" controls autoplay>
+        <source src="audio/dance_audio.mp3">
+    </audio> 
     <script src="myscript.js"></script>
 </body>
 </html>

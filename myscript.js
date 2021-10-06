@@ -16,3 +16,4 @@ function dance_img(){
 function stop(){
     location.reload();
 }
+

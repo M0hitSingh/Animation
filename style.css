@@ -1,6 +1,21 @@
+*{
+    margin: 0;
+    background-color: rgb(44, 43, 43);
+}
 #dd{
     margin-top: 5%;
     margin-left: 25%;
+    margin-right: 25%;
     width: 600px;
     height: 500px;
+}
+#btn1{
+    float:left;
+    color: white;
+    font-size: 20px;
+}
+#btn2{
+    float: right;
+    color: white;   
+    font-size: 20px;
 }
